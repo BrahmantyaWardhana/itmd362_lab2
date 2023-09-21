@@ -1,0 +1,32 @@
+body {
+    margin-top: 5%;
+    font-family:'Courier New';
+    background-color: lightblue;
+    font-size: 1em;
+}
+
+#email_input {
+    padding: 5px;
+}
+
+#phone_number_input {
+    padding: 5px;
+}
+
+#dob_input {
+    padding: 5px;
+}
+
+#submit_button {
+    padding: 5px;
+}
+
+#form {
+    border: 0.25em solid black;
+    display: block;
+    padding: 10px; 
+    margin: auto;
+    width:75%;
+    text-align: center;
+    background: white, black;
+}

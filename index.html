@@ -8,19 +8,19 @@
   <link rel="stylesheet" media="screen" href="css/screen.css" />
 </head>
 <body>
-  <form method="POST" autocomplete="on" action="#null">
+  <form method="POST" autocomplete="on" action="#null" id="form">
     <fieldset>
       <legend>User Information</legend>
-        <div>
+        <div id="email_input">
           <label>Email:<input type="email" name="eamil_field" placeholder="example@yahoo.com"></label>
         </div>
-        <div>
+        <div id="phone_input">
           <label>Phone Number:<input type="tel" name="phone_field" placeholder="(+01) 123-123-1234" pattern="(+[0-9]{2}) [0-9]{3}-[0-9]{3}-[0-9]{4}"></label>
         </div>
-        <div>
+        <div id="dob_input">
           <label>Date of Birth:<input type="date" name="dob_field" placeholder="mm/dd/yyyy"></label>
         </div>
-        <div>
+        <div id="submit_button">
           <input type="submit" value="Submit">
         </div>
     </fieldset>
