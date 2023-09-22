@@ -1,31 +1,49 @@
 body {
-    margin-top: 5%;
-    font-family:'Courier New';
-    background-color: lightblue;
-    font-size: 2em;
+  margin-top: 5%;
+  font-family:'Courier New';
+  background-color: lightblue;
+  font-size: 1em;
 }
 
+legend {
+  color: black;
+  padding: 1% 1%;
+  border: 0.02em solid black;
+  }
+
 #email_input {
-    padding: 5px;
+  padding: 5px;
 }
 
 #phone_number_input {
-    padding: 5px;
+  padding: 5px;
 }
 
 #dob_input {
-    padding: 5px;
+  padding: 5px;
 }
 
 #submit_button {
-    padding: 5px;
+  padding: 5px;
 }
 
 #form {
-    border: 0.25em solid black;
-    display: block;
-    padding: 10px; 
-    margin: auto;
-    width: 80%;
-    text-align: center;
+  border: 0.25em solid black;
+  display: block;
+  padding: 10px; 
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}
+
+@media only screen and (min-width: 800px){
+  body {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-family:'Courier New';
+    background-color: lightblue;
+    font-size: 2.2em;
+  }
 }
